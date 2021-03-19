@@ -1,0 +1,15 @@
+{
+  "name": "lola",
+  "version": "1.0.0",
+  "description": "Lola technical sandbox",
+  "main": "script.js",
+  "scripts": {
+    "start": "ws --hostname 127.0.0.1 -p 7070 --max-connections 1 --https",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruben",
+  "license": "ISC",
+  "devDependencies": {
+    "local-web-server": "^4.2.1"
+  }
+}
